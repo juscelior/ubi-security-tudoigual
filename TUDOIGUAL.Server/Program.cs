@@ -52,7 +52,7 @@ internal class Program
 
         GlobalConfiguration.Port = port;
         GlobalConfiguration.Username = "server";
-        GlobalConfiguration.UpdateClientsFileWithPfxCertificates();
+         GlobalConfiguration.UpdateClientsFileWithPfxCertificates();
         GlobalConfiguration.LoadClients();
 
         try
